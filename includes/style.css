@@ -1,0 +1,640 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.form13{
+    color: blue;
+    font-size: 13;
+}
+
+#regform{
+    margin-bottom: 10px;
+    border-bottom: 5px solid  blue;
+    padding-bottom: 8px;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+   box-shadow: 0px 30px rgb(255, 255, 255);
+   border-radius: 10px;
+}
+
+.sawirkalogada-cabirkiisa{
+    width: 70px;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+  }
+
+  .signin-button{
+    background-color: black;
+    color: black;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    margin-right: 20px;
+    margin-top: 3px;
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    cursor: pointer;
+
+  }
+
+  signin-button:hover{
+    background-color: white;
+    color: black;
+  }
+
+.midle-nav-space{
+    padding-left: 13px;
+}
+
+.midle-nav-space1{
+
+    padding-left: 12px;
+    margin-right: 15px;
+    color: blue;
+
+}
+#home-color{
+    color: blue;
+}
+
+
+.herosection{
+    display: flex;
+    background-color: rgb(242, 247, 247);
+    column-gap: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 13px;
+    padding-left: 46px;
+    padding-right: 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    
+}
+
+.hero10kand8k{
+    display: flex;
+    margin-top: 40px;
+}
+
+.headerpragraph{
+    font-size: 20px;
+    line-height: 1.3;
+
+}
+
+span{
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+}
+
+.c8k{
+   margin-right: 36px;
+}
+
+.tiro{
+    font-size: 20px;
+}
+
+.headerpragraphtitel{
+    margin-bottom: 17px;
+    font-size: 40px;
+    line-height: 1.1;
+}
+
+.heroleft{
+    margin-top: 40px;
+}
+
+.agentlist{
+    background-color: rgb(242, 247, 247);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    margin-bottom: 20px;
+
+}
+
+.agent-profile{
+   width: 100%;
+   border-radius: 10px;
+}
+
+.agentName{
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.agent-title{
+     font-size: 20px;
+     padding-left: 5px;
+     color: rgb(73, 69, 69);
+}
+
+.agentinformation{
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 14px;
+    margin-bottom: 33px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+.agentButton{
+    background-color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    border: none;
+    margin-left: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+
+.agentdetails{
+    background-color: rgb(242, 247, 247); 
+    margin-left: 40px;
+    margin-right: 40px; 
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.ouragents{
+    padding-left: 60px;
+    font-size: 20px;
+    color: blue;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.sendonereal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.agentviewll{
+    background-color: blue;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    border: none;
+    margin-left: 8px;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.homecolor{
+    color: rgb(1, 1, 250);
+}
+
+
+.propertylist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    background-color :rgb(242, 247, 247);
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    column-gap: 10px;
+    row-gap: 13px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.imagelocation{
+    margin-left: 5px;
+}
+
+.footerproperty{
+    margin-top: 8px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 3px solid blue;
+}
+
+.propertyprofileimage{
+    width: 100%;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+
+.roomclass{
+    margin-left: 5px;
+}
+
+.singlepropertyinfo{
+    background-color: white;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.propertyprice{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 6px;
+    margin-bottom: 7px;
+    color: blue;
+    margin-top: 13px;
+    
+}
+
+.adressName1{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 6px;
+    margin-bottom: 5px;
+    
+}
+
+.roomclass45{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 7px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.bathname{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.carparking{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+
+.adersspropertstyle{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+}
+
+.imagelocation{
+    width: 100%;
+}
+
+.footerproperty{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.room{
+    display: grid;
+    grid-template-columns: 20px 1fr; 
+}
+
+.roomclass{
+    width: 100%;
+}
+
+.musqul{
+    display: grid;
+    grid-template-columns: 20px 1fr;  
+}
+
+.musqulclass{
+    width: 100%;
+}
+
+.parking{
+    display: grid;
+    grid-template-columns: 20px 1fr; 
+}
+
+.parkingclass{
+    width: 100%;
+}
+
+.propertyinformation{
+    display: flex;
+    justify-content: space-between;
+    background-color :rgb(242, 247, 247);
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+
+.bestDeals{
+    font-size: 23px;
+    color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+
+.caankaproperty{
+    margin-top: 10px;
+    padding: 0;
+    margin-left: 7px;
+    font-size: 23px;
+}
+
+
+.aragpropertview{
+
+    background-color: blue;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.caanpopular{
+    font-weight: bold;
+    color: black;
+}
+
+.usersignin{
+    width: 38px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.qeeybtaHooose{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    background-color: black;
+}
+
+.contaus{
+    margin-bottom: 0px;
+    color: white;
+}
+
+.contacts{
+    padding-bottom: 3px;
+}
+
+.informationsie{
+    margin-top: 7px;
+    color: white;
+    
+}
+
+
+.bidixdaftrk{
+    display: flex;
+    align-items: center;
+    padding-top: 13px;
+    padding-left: 15px;
+    padding-bottom: 3px;
+}
+
+.ftrlgo{
+    margin-right: 0px;
+}
+
+.sawirkalogada-cabirkiisa1{
+    width: 40px;
+}
+
+.contaus109{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ftrlrft3{
+    color: white;
+    line-height: 1.3;
+    padding-left: 25px;
+}
+
+.ots3{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+
+.ots4{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(243, 235, 235);
+    margin-left: 25px;
+    border-radius: 30px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+}
+
+.socialmedia1{
+    width: 100%
+}
+
+.socialmedia12{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-left: 90px;
+    padding-right: 55px;
+    padding-bottom: 20px;
+    border-top: 3px solid white;
+    padding-top: 15PX;
+}
+
+.rightinfocopy{
+    color: white;
+    margin-left: 12px;
+}
+
+.lastpart{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.lastleft{
+    margin-right: 25px;
+}
+
+.findhomenow{
+    color: white;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+
+.lastright{
+    display: flex;
+}
+
+.lastplay{
+    width: 40px;
+}
+.lastwork{
+    margin-left: 8px;
+    font-size: 25px;
+    color: black;
+}
+
+
+.loginright{
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.username{
+    margin-bottom: 20px;
+}
+
+
+.loginpage{
+    display: flex;
+    margin-bottom: 110px;
+    margin-left: 90px;
+}
+
+.loginsingin{
+    margin-top: 10px;
+    border: none;
+    width: 364px;
+    font-size: 16px;
+    background-color: blue;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.inputwidthholder{
+    width: 350px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-style: solid;
+    border-color: rgb(37, 36, 36);
+}
+
+.donthaveanacount{
+    margin-top: 13px;
+    margin-left: 37px;
+    font-size: 17px;
+}
+
+.clickhereaccount{
+    font-size: 17px;
+}
+
+.username{
+    margin-bottom: 12px;
+}
+
+.hello1{
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+.back1{
+    color: blue;
+}
+
+.welcome1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
